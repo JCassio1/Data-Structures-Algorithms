@@ -42,11 +42,10 @@ func binarySearch(numberToSearch: Int, numberArray: [Int]) -> Bool {
 
         if numberToSearch > middleValue {
             leftIndex = middleIndex + 1
-
         }
     }
     return false
 }
 
-binarySearch(numberToSearch: 97, numberArray: numbers)
+binarySearch(numberToSearch: 101, numberArray: numbers)
 
